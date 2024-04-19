@@ -14,6 +14,9 @@
 		D38558A62BD15D5B008DE4C6 /* Ejercicio_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558A52BD15D5B008DE4C6 /* Ejercicio_MVVMTests.swift */; };
 		D38558B02BD15D5B008DE4C6 /* Ejercicio_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558AF2BD15D5B008DE4C6 /* Ejercicio_MVVMUITests.swift */; };
 		D38558B22BD15D5B008DE4C6 /* Ejercicio_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558B12BD15D5B008DE4C6 /* Ejercicio_MVVMUITestsLaunchTests.swift */; };
+		D38558BF2BD15E55008DE4C6 /* ModeloUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558BE2BD15E55008DE4C6 /* ModeloUsuario.swift */; };
+		D38558C12BD15E89008DE4C6 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558C02BD15E89008DE4C6 /* RegistroView.swift */; };
+		D38558C32BD15EA7008DE4C6 /* RegistroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38558C22BD15EA7008DE4C6 /* RegistroViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D38558AB2BD15D5B008DE4C6 /* Ejercicio MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ejercicio MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38558AF2BD15D5B008DE4C6 /* Ejercicio_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio_MVVMUITests.swift; sourceTree = "<group>"; };
 		D38558B12BD15D5B008DE4C6 /* Ejercicio_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D38558BE2BD15E55008DE4C6 /* ModeloUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloUsuario.swift; sourceTree = "<group>"; };
+		D38558C02BD15E89008DE4C6 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
+		D38558C22BD15EA7008DE4C6 /* RegistroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				D38558962BD15D56008DE4C6 /* ContentView.swift */,
 				D38558982BD15D5A008DE4C6 /* Assets.xcassets */,
 				D385589A2BD15D5A008DE4C6 /* Preview Content */,
+				D38558BE2BD15E55008DE4C6 /* ModeloUsuario.swift */,
+				D38558C02BD15E89008DE4C6 /* RegistroView.swift */,
+				D38558C22BD15EA7008DE4C6 /* RegistroViewModel.swift */,
 			);
 			path = "Ejercicio MVVM";
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38558BF2BD15E55008DE4C6 /* ModeloUsuario.swift in Sources */,
+				D38558C32BD15EA7008DE4C6 /* RegistroViewModel.swift in Sources */,
 				D38558972BD15D56008DE4C6 /* ContentView.swift in Sources */,
 				D38558952BD15D56008DE4C6 /* Ejercicio_MVVMApp.swift in Sources */,
+				D38558C12BD15E89008DE4C6 /* RegistroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct Ejercicio_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RegistroView()
         }
     }
 }
